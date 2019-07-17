@@ -239,6 +239,8 @@ input {
     margin: 0 auto;
     height: 100%;
     background: url(../images/body_bk.jpg) no-repeat center top;
+    /*background-size: 7.5rem 100%;*/
+    -webkit-background-size:7.5rem 100% ;
     background-size: 7.5rem 100%;
     position: absolute;
     left: 0;
@@ -342,6 +344,7 @@ input {
     background: #fff;
     position: relative;
     z-index: 999
+    box-sizing:border-box;
 
 }
 
@@ -393,8 +396,8 @@ input {
     width: 6.14rem;
     height: 1.65rem;
     vertical-align: middle;
-    margin-top: 1.8rem;
-    margin-bottom: 1rem;
+    /*margin-top: 1.8rem;*/
+    /*margin-bottom: 1rem;*/
 }
 
 
@@ -533,6 +536,7 @@ input {
     padding-left: .33rem;
 
     color:#737373;
+    box-sizing:border-box;
 
 }
 
@@ -584,7 +588,8 @@ input {
 
     background: url(./../images/circle.png) no-repeat center center;
 
-    background-size: 0.6rem 0.6rem;
+    -webkit-background-size: .6rem;
+    background-size: .6rem;
 
     position: absolute;
 
@@ -1128,6 +1133,7 @@ ol.linenums li {
 
     background: url(./../images/close.png) no-repeat center center;
 
+    -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 
     cursor: pointer;
@@ -1180,6 +1186,7 @@ ol.linenums li {
 
     background: url(./../images/close.png) no-repeat center center;
 
+    -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 
     cursor: pointer;
@@ -1310,7 +1317,8 @@ ol.linenums li {
 
     background: url(./../images/input_bk.png) no-repeat center center;
 
-    background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: 100% 100%;
 
     margin: 0 auto;
 
